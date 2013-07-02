@@ -43,4 +43,11 @@
     self.outputLabel.textColor = [UIColor colorWithRed:rand()*256/256.0 green:rand()*256/256.0 blue:rand()*256/256.0 alpha:1.0];
 }
 
+-(void)dealloc
+{
+    //should alway remove self from notification when dealloc
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+}
+
+
 @end
