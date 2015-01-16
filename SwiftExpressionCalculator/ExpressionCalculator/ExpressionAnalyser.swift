@@ -9,23 +9,7 @@
 import Foundation
 
 
-public extension String {
-    
-    var length: Int { return countElements(self) }
-    
-    /**
-    Parses a string containing a double numerical value into an optional double if the string is a well formed number.
-    
-    :returns: A double parsed from the string or nil if it cannot be parsed.
-    */
-    func toDouble() -> Double? {
-        return (self as NSString).doubleValue
-        
-    }
-    
 
-    
-}
 
 //Assume the expression is correct and calculatable
 func tokenizeExpression(expression: String!) -> [String]

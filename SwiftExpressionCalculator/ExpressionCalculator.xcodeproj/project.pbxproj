@@ -12,8 +12,11 @@
 		0BF4802E1A683ACA004FBE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4802C1A683ACA004FBE35 /* Main.storyboard */; };
 		0BF480301A683ACA004FBE35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4802F1A683ACA004FBE35 /* Images.xcassets */; };
 		0BF480331A683ACA004FBE35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF480311A683ACA004FBE35 /* LaunchScreen.xib */; };
-		0BF4803F1A683ACA004FBE35 /* ExpressionCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4803E1A683ACA004FBE35 /* ExpressionCalculatorTests.swift */; };
 		0BF480491A6842D7004FBE35 /* ExpressionAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF480481A6842D7004FBE35 /* ExpressionAnalyser.swift */; };
+		0BF4804B1A68CB4C004FBE35 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4804A1A68CB4C004FBE35 /* StringExtension.swift */; };
+		0BF4804F1A68DAB9004FBE35 /* ExpressionAnalyserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4804E1A68DAB9004FBE35 /* ExpressionAnalyserTest.swift */; };
+		0BF480501A68DBC6004FBE35 /* ExpressionAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF480481A6842D7004FBE35 /* ExpressionAnalyser.swift */; };
+		0BF480511A68DBE4004FBE35 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4804A1A68CB4C004FBE35 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,9 @@
 		0BF480321A683ACA004FBE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0BF480381A683ACA004FBE35 /* ExpressionCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressionCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF4803D1A683ACA004FBE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BF4803E1A683ACA004FBE35 /* ExpressionCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionCalculatorTests.swift; sourceTree = "<group>"; };
 		0BF480481A6842D7004FBE35 /* ExpressionAnalyser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionAnalyser.swift; sourceTree = "<group>"; };
+		0BF4804A1A68CB4C004FBE35 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		0BF4804E1A68DAB9004FBE35 /* ExpressionAnalyserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionAnalyserTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				0BF4802A1A683ACA004FBE35 /* ViewController.swift */,
 				0BF4802C1A683ACA004FBE35 /* Main.storyboard */,
 				0BF480481A6842D7004FBE35 /* ExpressionAnalyser.swift */,
+				0BF4804A1A68CB4C004FBE35 /* StringExtension.swift */,
 				0BF4802F1A683ACA004FBE35 /* Images.xcassets */,
 				0BF480311A683ACA004FBE35 /* LaunchScreen.xib */,
 				0BF480261A683ACA004FBE35 /* Supporting Files */,
@@ -101,7 +106,7 @@
 		0BF4803B1A683ACA004FBE35 /* ExpressionCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				0BF4803E1A683ACA004FBE35 /* ExpressionCalculatorTests.swift */,
+				0BF4804E1A68DAB9004FBE35 /* ExpressionAnalyserTest.swift */,
 				0BF4803C1A683ACA004FBE35 /* Supporting Files */,
 			);
 			path = ExpressionCalculatorTests;
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF4804B1A68CB4C004FBE35 /* StringExtension.swift in Sources */,
 				0BF4802B1A683ACA004FBE35 /* ViewController.swift in Sources */,
 				0BF480291A683ACA004FBE35 /* AppDelegate.swift in Sources */,
 				0BF480491A6842D7004FBE35 /* ExpressionAnalyser.swift in Sources */,
@@ -225,7 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BF4803F1A683ACA004FBE35 /* ExpressionCalculatorTests.swift in Sources */,
+				0BF480511A68DBE4004FBE35 /* StringExtension.swift in Sources */,
+				0BF480501A68DBC6004FBE35 /* ExpressionAnalyser.swift in Sources */,
+				0BF4804F1A68DAB9004FBE35 /* ExpressionAnalyserTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				0BF480441A683ACA004FBE35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BF480451A683ACA004FBE35 /* Build configuration list for PBXNativeTarget "ExpressionCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				0BF480471A683ACA004FBE35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

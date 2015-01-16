@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zh9-DU-4JL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zh9-DU-4JL">
                                 <rect key="frame" x="26" y="25" width="548" height="100"/>
                                 <color key="backgroundColor" red="0.26917613636363635" green="0.26917613636363635" blue="0.26917613636363635" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -172,7 +172,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Eam-ug-wcJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
                                 <state key="normal" title="-">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -248,8 +248,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="TTp-d0-JtO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
-                                <state key="normal" title="x">
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <state key="normal" title="*">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
@@ -286,7 +286,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="rBc-ec-HYO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <state key="normal" title=".">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -402,7 +402,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="lBm-dx-KEu"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="AC">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -412,7 +412,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h6l-dO-bHo"/>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ee-GO-ZgS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYW-ek-ffj">
