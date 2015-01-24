@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>842D280D-8F21-4BF1-B13C-6C3255473624</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BluetoothObjectFinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6249B2F22CE06A861A469666CF2ADE693D5D8BDF</key>
+		<string>https://github.com/hjyssg/HJYApps</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BluetoothObjectFinderDemo/BluetoothObjectFinder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6249B2F22CE06A861A469666CF2ADE693D5D8BDF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hjyssg/HJYApps</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6249B2F22CE06A861A469666CF2ADE693D5D8BDF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6249B2F22CE06A861A469666CF2ADE693D5D8BDF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HJYApps</string>
+		</dict>
+	</array>
+</dict>
+</plist>

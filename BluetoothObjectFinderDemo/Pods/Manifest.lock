@@ -1,0 +1,15 @@
+PODS:
+  - iOS-Slide-Menu (1.4.4)
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core (= 2.2)
+  - MagicalRecord/Core (2.2)
+
+DEPENDENCIES:
+  - iOS-Slide-Menu
+  - MagicalRecord (~> 2.2)
+
+SPEC CHECKSUMS:
+  iOS-Slide-Menu: 7891c4e4180aac2b23fb2e5459ff61b8691a8496
+  MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
+
+COCOAPODS: 0.35.0
