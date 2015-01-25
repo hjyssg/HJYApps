@@ -22,12 +22,13 @@ class ViewController: UIViewController {
         let noRepeatedOperators = ["-","+","*","/","^","."]
         let nums = ["1","2","3","4","5","6","7","8","9","0"]
         
+        let text = self.outputConsole.text!
+        
         if input == "AC"
         {
             self.outputConsole.text = ""
-            return
         }
-        if input == "<-"
+        else if input == "<-"
         {
             let text = self.outputConsole.text! as NSString
             if text.length > 0
@@ -37,34 +38,34 @@ class ViewController: UIViewController {
             {
                 self.outputConsole.text = ""
             }
-            
+        }
+        else if text.rangeOfString("=") != nil
+        {
+            //do not evaluate result again.
+            return ;
         }
         else if contains(nums, input) || input == "(" || input == ")"
         {
-            self.outputConsole.text = self.outputConsole.text! +  input
+            self.outputConsole.text = text +  input
           
         }
         else if contains(noRepeatedOperators, input)
         {
-            let text = self.outputConsole.text!
-            
+ 
                 if text.length == 0 && input == "-"
                 {
                     text == "-"
                 }else if text.length > 0
                 {
-                    println(input)
-                    
                     let lastC = text[text.length-1]
                     if !contains(noRepeatedOperators, lastC!)
                     {
-                        self.outputConsole.text = self.outputConsole.text! +  input
+                        self.outputConsole.text = text +  input
                     }
             }
         }
         else if input == "="
         {
-            let text = self.outputConsole.text!
                 if let result = evaluateExpression(text){
                     self.outputConsole.text =  text + " = " + String(format:"%.2f", result)
                 }
@@ -72,9 +73,6 @@ class ViewController: UIViewController {
             {
                 self.outputConsole.text  = "ERROR EXPRESSION"
             }
-        
-        
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
