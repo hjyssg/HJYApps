@@ -98,7 +98,7 @@
 		0B9EABA319552DB100CF5E52 /* TBITItemMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBITItemMapAnnotation.m; sourceTree = "<group>"; };
 		0BC990231948084B0071E962 /* TBITDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TBITDataModel.xcdatamodel; sourceTree = "<group>"; };
 		0BD06323193E94D8000DCD95 /* TBITCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBITCommon.h; sourceTree = "<group>"; };
-		0BEE56E3193CFECC00E8FB17 /* StickNFind Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StickNFind Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEE56E3193CFECC00E8FB17 /* BTFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEE56E6193CFECC00E8FB17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0BEE56E8193CFECC00E8FB17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0BEE56EA193CFECC00E8FB17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -230,7 +230,7 @@
 		0BEE56E4193CFECC00E8FB17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BEE56E3193CFECC00E8FB17 /* StickNFind Helper.app */,
+				0BEE56E3193CFECC00E8FB17 /* BTFinder.app */,
 				0BEE5707193CFECC00E8FB17 /* BluetoothObjectFinderTests.xctest */,
 			);
 			name = Products;
@@ -309,9 +309,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BEE56E2193CFECC00E8FB17 /* BluetoothObjectFinder */ = {
+		0BEE56E2193CFECC00E8FB17 /* BTFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BEE5718193CFECC00E8FB17 /* Build configuration list for PBXNativeTarget "BluetoothObjectFinder" */;
+			buildConfigurationList = 0BEE5718193CFECC00E8FB17 /* Build configuration list for PBXNativeTarget "BTFinder" */;
 			buildPhases = (
 				B028AE32E2AC446E8B1BD22B /* Check Pods Manifest.lock */,
 				0BEE56DF193CFECC00E8FB17 /* Sources */,
@@ -323,9 +323,9 @@
 			);
 			dependencies = (
 			);
-			name = BluetoothObjectFinder;
+			name = BTFinder;
 			productName = BluetoothObjectFinder;
-			productReference = 0BEE56E3193CFECC00E8FB17 /* StickNFind Helper.app */;
+			productReference = 0BEE56E3193CFECC00E8FB17 /* BTFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0BEE5706193CFECC00E8FB17 /* BluetoothObjectFinderTests */ = {
@@ -376,7 +376,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BEE56E2193CFECC00E8FB17 /* BluetoothObjectFinder */,
+				0BEE56E2193CFECC00E8FB17 /* BTFinder */,
 				0BEE5706193CFECC00E8FB17 /* BluetoothObjectFinderTests */,
 			);
 		};
@@ -515,7 +515,7 @@
 /* Begin PBXTargetDependency section */
 		0BEE570D193CFECC00E8FB17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BEE56E2193CFECC00E8FB17 /* BluetoothObjectFinder */;
+			target = 0BEE56E2193CFECC00E8FB17 /* BTFinder */;
 			targetProxy = 0BEE570C193CFECC00E8FB17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -643,7 +643,7 @@
 				INFOPLIST_FILE = "BluetoothObjectFinder/BluetoothObjectFinder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "StickNFind Helper";
+				PRODUCT_NAME = BTFinder;
 				PROVISIONING_PROFILE = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "BluetoothObjectFinder/BluetoothObjectFinder-Bridging-Header.h";
@@ -675,7 +675,7 @@
 				INFOPLIST_FILE = "BluetoothObjectFinder/BluetoothObjectFinder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "StickNFind Helper";
+				PRODUCT_NAME = BTFinder;
 				PROVISIONING_PROFILE = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "BluetoothObjectFinder/BluetoothObjectFinder-Bridging-Header.h";
@@ -737,7 +737,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BEE5718193CFECC00E8FB17 /* Build configuration list for PBXNativeTarget "BluetoothObjectFinder" */ = {
+		0BEE5718193CFECC00E8FB17 /* Build configuration list for PBXNativeTarget "BTFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BEE5719193CFECC00E8FB17 /* Debug */,

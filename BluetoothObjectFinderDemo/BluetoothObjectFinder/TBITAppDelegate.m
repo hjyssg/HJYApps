@@ -40,8 +40,7 @@
     [MagicalRecord setupCoreDataStack];
     
     
-    
-    
+   
     //set up location update
     self.currentLocation = NULL;
     self.locationManager = [[CLLocationManager alloc]init];
@@ -50,7 +49,11 @@
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     [self.locationManager startUpdatingLocation];
     
-    
+    //http://nevan.net/2014/09/core-location-manager-changes-in-ios-8/
+    // Check for iOS 8. Without this guard the code will crash with "unknown selector" on iOS 7.
+    if ([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
+        [self.locationManager requestAlwaysAuthorization];
+    }
 
     
     //make some pseudo items for demos
@@ -86,8 +89,22 @@
         }
     }
     
+    
+//    [NSTimer scheduledTimerWithTimeInterval:1
+//                                     target:self
+//                                   selector:@selector(handleTimer:)
+//                                   userInfo:nil
+//                                    repeats:YES];
+    
     return YES;
 }
+
+
+//-(void)handleTimer:(NSTimer *)timer
+//{
+//    CLLocation *loc = [self getCurrentLocation];
+//    NSLog(@"%@", [loc description]);
+//}
 
 /**
  Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

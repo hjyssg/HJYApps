@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0BEE56E2193CFECC00E8FB17"
-               BuildableName = "StickNFind Helper.app"
-               BlueprintName = "BluetoothObjectFinder"
+               BuildableName = "BTFinder.app"
+               BlueprintName = "BTFinder"
                ReferencedContainer = "container:BluetoothObjectFinder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BEE56E2193CFECC00E8FB17"
-            BuildableName = "StickNFind Helper.app"
-            BlueprintName = "BluetoothObjectFinder"
+            BuildableName = "BTFinder.app"
+            BlueprintName = "BTFinder"
             ReferencedContainer = "container:BluetoothObjectFinder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BEE56E2193CFECC00E8FB17"
-            BuildableName = "StickNFind Helper.app"
-            BlueprintName = "BluetoothObjectFinder"
+            BuildableName = "BTFinder.app"
+            BlueprintName = "BTFinder"
             ReferencedContainer = "container:BluetoothObjectFinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BEE56E2193CFECC00E8FB17"
-            BuildableName = "StickNFind Helper.app"
-            BlueprintName = "BluetoothObjectFinder"
+            BuildableName = "BTFinder.app"
+            BlueprintName = "BTFinder"
             ReferencedContainer = "container:BluetoothObjectFinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
